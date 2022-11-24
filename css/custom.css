@@ -10772,5 +10772,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+header {
+  background-image: url(../imagenes/fondo\ index.jpg);
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+}
 
 /*# sourceMappingURL=custom.css.map */

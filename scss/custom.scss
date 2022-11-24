@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 $font-family-base: 'Merriweather', serif;
 
-
+$bg-danger: rgb(238, 226, 228); 
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+header {
+    background-image: url(../imagenes/fondo\ index.jpg);
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+}
+
