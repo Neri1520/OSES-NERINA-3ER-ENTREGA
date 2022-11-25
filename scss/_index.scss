@@ -1,0 +1,17 @@
+header {
+    background-image: url("../imagenes/imagen\ de\ fondo\ facial.jpg");
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+@include media-breakpoint-up (md) {
+    header{
+        height: 500px
+    } 
+}
+
+footer{
+    box-shadow: 10px;
+    color: rgb(180, 119, 170);
+}
