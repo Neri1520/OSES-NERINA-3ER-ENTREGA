@@ -1,3 +1,4 @@
+
 header {
     background-image: url("../imagenes/imagen\ de\ fondo\ facial.jpg");
     height: 200px;
@@ -8,8 +9,10 @@ header {
 @include media-breakpoint-up (md) {
     header{
         height: 500px
-    } 
+     } 
 }
+
+
 
 footer{
     box-shadow: 10px;
