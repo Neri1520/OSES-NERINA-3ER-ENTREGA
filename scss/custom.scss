@@ -3,13 +3,24 @@ $font-family-base: 'Merriweather', serif;
 
 $bg-danger: rgb(238, 226, 228); 
 
+$rosa: #eec2d8;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 header {
-    background-image: url(../imagenes/fondo\ index.jpg);
-    height: 700px;
+    background-image: url(../imagenes/imagen\ de\ fondo\ facial.jpg);
+    height: 200px;
     background-position: center;
     background-size: cover;
 }
 
+@include media-breakpoint-up (md) {
+    header{
+        height: 500px
+    } 
+}
+
+footer{
+    box-shadow: 10px;
+    color: rgb(180, 119, 170);
+}
